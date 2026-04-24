@@ -1,0 +1,19 @@
+{
+  "handoff_version": "v1",
+  "item_id": "news-YYYY-MM-DD-001",
+  "created_at": "ISO-8601 timestamp",
+  "from_agent": "agent-name",
+  "to_agent": "agent-name",
+  "stage": "news_normalized | asset_mapping | impact_assessed | hypothesis_ready | validated",
+  "status": "draft | ready | blocked",
+  "priority": "low | normal | high | urgent",
+  "source_count": 0,
+  "confidence": 0.0,
+  "human_review_required": false,
+  "summary": "one paragraph max",
+  "facts": [],
+  "claims": [],
+  "uncertainties": [],
+  "attachments": [],
+  "next_question": ""
+}
