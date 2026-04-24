@@ -1,0 +1,66 @@
+{
+  "handoff_version": "v1",
+  "item_id": "event-2026-04-24-009",
+  "created_at": "2026-04-24T13:14:00+07:00",
+  "from_agent": "atlas",
+  "to_agent": "pulse",
+  "stage": "asset_mapping",
+  "status": "ready",
+  "priority": "high",
+  "source_count": 1,
+  "confidence": 0.85,
+  "human_review_required": false,
+  "summary": "This energy supply disruption narrative maps directly to crude oil futures, energy equities, and oil-linked macros, with indirect exposure to inflation-sensitive assets, transport, airlines, and chemicals.",
+  "facts": [
+    "The event concerns oil supply risk and a shipping chokepoint disruption.",
+    "The Strait of Hormuz is a globally relevant energy transit route.",
+    "Supply concern is the primary transmission mechanism."
+  ],
+  "claims": [
+    "Crude oil futures and energy equities are directly exposed.",
+    "Inflation-sensitive macro assets may react if shock persists.",
+    "Oil-consuming sectors face margin pressure from input cost increases."
+  ],
+  "uncertainties": [
+    "Whether disruption persists long enough to trigger macro repricing.",
+    "Cross-asset strength depends on whether the move is temporary or structural."
+  ],
+  "attachments": [
+    "scout.json"
+  ],
+  "next_question": "What is the likely impact direction, horizon, and watch priority across the directly and indirectly exposed assets?",
+  "related_assets": [
+    "crude oil futures",
+    "energy equities",
+    "oil exporters",
+    "inflation-sensitive bonds and FX narratives",
+    "airlines and transport equities",
+    "chemicals and other energy-input-sensitive industries"
+  ],
+  "related_sectors": [
+    "energy",
+    "transport",
+    "industrials",
+    "chemicals",
+    "macro rates and FX"
+  ],
+  "themes": [
+    "energy supply shock",
+    "geopolitical risk",
+    "inflation pressure",
+    "shipping chokepoint disruption"
+  ],
+  "direct_links": [
+    "crude oil futures",
+    "energy producers",
+    "oil-export-sensitive macro themes"
+  ],
+  "indirect_links": [
+    "airlines",
+    "transport",
+    "chemical producers",
+    "inflation expectations",
+    "central-bank sensitivity"
+  ],
+  "relevance_score": 0.87
+}

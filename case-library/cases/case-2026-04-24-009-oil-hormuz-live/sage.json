@@ -1,0 +1,58 @@
+{
+  "handoff_version": "v1",
+  "item_id": "event-2026-04-24-009",
+  "created_at": "2026-04-24T13:16:00+07:00",
+  "from_agent": "sage",
+  "to_agent": "shield",
+  "stage": "hypothesis_ready",
+  "status": "ready",
+  "priority": "high",
+  "source_count": 1,
+  "confidence": 0.7,
+  "human_review_required": false,
+  "summary": "A workable hypothesis is that sustained Hormuz disruption creates a persistence-driven long bias on oil-linked instruments, with the best research angle being relative-performance and follow-through confirmation.",
+  "facts": [
+    "Upstream stages classify this as an energy supply-shock case with direct energy exposure.",
+    "The immediate market signal is rising oil prices."
+  ],
+  "claims": [
+    "The right framing is persistence detection, not a one-headline momentum chase.",
+    "Relative-performance study between energy and transport/airlines is the most testable angle."
+  ],
+  "uncertainties": [
+    "Geopolitical events can reverse abruptly.",
+    "The first move may already contain much of the easy directional reaction."
+  ],
+  "attachments": [
+    "pulse.json"
+  ],
+  "next_question": "Is this hypothesis strong enough for research/simulation, and what evidence gaps must be closed?",
+  "hypothesis": "If Strait of Hormuz disruptions persist alongside U.S.-Iran deadlock, oil-linked assets may retain short-term relative strength while oil-consuming sectors face pressure from higher energy-cost expectations.",
+  "strategy_candidates": [
+    "event-driven oil watchlist",
+    "persistence filter for follow-through vs fade",
+    "relative-performance study: energy vs transport/airlines"
+  ],
+  "assumptions": [
+    "disruption remains meaningful",
+    "energy markets continue to react to supply-risk headlines",
+    "cross-sector spread remains tradable after headline shock"
+  ],
+  "invalidation_conditions": [
+    "rapid de-escalation",
+    "energy prices reverse quickly",
+    "cross-sector response fails to differentiate"
+  ],
+  "test_plan": [
+    "collect prior geopolitical oil disruption headlines",
+    "measure energy and transport sector response across short windows",
+    "test persistence filter on day-1 vs day-2 moves",
+    "record fade scenarios where initial spike failed"
+  ],
+  "required_data": [
+    "headline archive",
+    "oil futures data",
+    "sector ETF or equity basket data",
+    "volatility and spread metrics"
+  ]
+}

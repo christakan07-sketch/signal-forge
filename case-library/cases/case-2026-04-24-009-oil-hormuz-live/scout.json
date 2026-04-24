@@ -1,0 +1,49 @@
+{
+  "handoff_version": "v1",
+  "item_id": "event-2026-04-24-009",
+  "created_at": "2026-04-24T13:13:00+07:00",
+  "from_agent": "scout",
+  "to_agent": "atlas",
+  "stage": "news_normalized",
+  "status": "ready",
+  "priority": "high",
+  "source_count": 1,
+  "confidence": 0.78,
+  "human_review_required": false,
+  "summary": "Reuters-grounded reporting shows oil prices advancing on persistent U.S.-Iran deadlock and ongoing disruptions in the Strait of Hormuz, raising global supply and energy-market volatility concerns.",
+  "facts": [
+    "Oil prices were reported as advancing.",
+    "The U.S.-Iran deadlock is described as persistent.",
+    "Strait of Hormuz disruptions are ongoing.",
+    "Supply concern and volatility are the central themes."
+  ],
+  "claims": [
+    "This event is likely material for energy and macro watchlists.",
+    "Urgency is elevated because Hormuz is a globally relevant chokepoint."
+  ],
+  "uncertainties": [
+    "Persistence of the disruption beyond the current period is unclear.",
+    "Degree of market pre-pricing is unknown.",
+    "Exact policy follow-through from either side is uncertain."
+  ],
+  "attachments": [
+    "case.md"
+  ],
+  "next_question": "Which assets, sectors, and themes are directly and indirectly exposed to this oil supply disruption narrative?",
+  "event_summary": "Oil prices advance as U.S.-Iran deadlock and Hormuz disruptions raise supply concerns.",
+  "entities": [
+    "oil",
+    "U.S.",
+    "Iran",
+    "Strait of Hormuz",
+    "global supply",
+    "energy volatility"
+  ],
+  "category": "energy_supply_shock",
+  "novelty": "medium",
+  "urgency": "high",
+  "noise_flag": false,
+  "source_refs": [
+    "raw-events/event-2026-04-24-009.json"
+  ]
+}

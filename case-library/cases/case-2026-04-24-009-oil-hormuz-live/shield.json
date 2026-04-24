@@ -1,0 +1,46 @@
+{
+  "handoff_version": "v1",
+  "item_id": "event-2026-04-24-009",
+  "created_at": "2026-04-24T13:17:00+07:00",
+  "from_agent": "shield",
+  "to_agent": "main",
+  "stage": "validated",
+  "status": "ready",
+  "priority": "high",
+  "source_count": 1,
+  "confidence": 0.73,
+  "human_review_required": false,
+  "summary": "This case is strong enough for structured research and simulation, but not strong enough for execution decisions. The best next step is persistence and relative-performance study before any stronger action.",
+  "facts": [
+    "The case is based on Reuters-grounded reporting.",
+    "The event is geopolitical and energy-supply related.",
+    "The current pipeline still lacks quantitative validation."
+  ],
+  "claims": [
+    "The case is valid for building a real event template.",
+    "The case is not yet sufficient for trading approval."
+  ],
+  "uncertainties": [
+    "market speed of repricing",
+    "headline persistence",
+    "signal decay after initial reaction"
+  ],
+  "attachments": [
+    "sage.json"
+  ],
+  "next_question": "Should this case become a core oil supply-shock template in the case library?",
+  "verdict": "research_and_simulation_candidate",
+  "risk_notes": [
+    "geopolitical headlines can reverse quickly",
+    "execution lag can destroy edge",
+    "broad macro spillovers complicate clean attribution"
+  ],
+  "evidence_gaps": [
+    "historical analog set",
+    "persistence thresholds",
+    "entry/exit timing rules",
+    "asset selection criteria"
+  ],
+  "recommended_next_action": "save this as a core energy supply-shock template, collect comparable historical cases, and design a small simulation study before any stronger decision",
+  "approval_level": "research"
+}

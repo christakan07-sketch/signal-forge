@@ -1,0 +1,43 @@
+{
+  "handoff_version": "v1",
+  "item_id": "event-2026-04-24-009",
+  "created_at": "2026-04-24T13:15:00+07:00",
+  "from_agent": "pulse",
+  "to_agent": "sage",
+  "stage": "impact_assessed",
+  "status": "ready",
+  "priority": "high",
+  "source_count": 1,
+  "confidence": 0.76,
+  "human_review_required": false,
+  "summary": "The most likely first-order effect is bullish pressure on oil-linked assets with elevated volatility, while oil-consuming sectors face negative read-through if disruption persists. Persistence detection is more important than the first spike.",
+  "facts": [
+    "Oil prices were reported as advancing.",
+    "Supply-risk and geopolitical disruption are the primary mechanisms.",
+    "Strait of Hormuz chokepoint adds structural significance."
+  ],
+  "claims": [
+    "Near-term bias is bullish for crude-linked assets.",
+    "Second-order effects include inflation concern and margin pressure on oil-consuming sectors.",
+    "The strongest immediate reaction is likely in commodities and energy sentiment before broader macro repricing."
+  ],
+  "uncertainties": [
+    "Whether disruption persists or de-escalates quickly.",
+    "How much of the move is already priced.",
+    "Whether central-bank/rates reactions become a meaningful second-order effect."
+  ],
+  "attachments": [
+    "atlas.json"
+  ],
+  "next_question": "What research hypothesis should be formed from this oil supply disruption case?",
+  "impact_direction": "bullish for oil-linked assets, negative for some oil-consuming sectors, mixed for broad equities",
+  "impact_horizon": "immediate to short-term, with possible medium-term macro spillover if disruption persists",
+  "watch_priority": "high",
+  "catalyst_or_noise": "likely catalyst if disruption remains active",
+  "key_uncertainties": [
+    "duration of disruption",
+    "geopolitical resolution path",
+    "degree of pre-pricing",
+    "second-order inflation repricing path"
+  ]
+}
