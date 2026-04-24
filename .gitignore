@@ -30,3 +30,6 @@ secrets/
 # Local workspace artifacts (not meant for the repo)
 memory/
 *.session
+
+# CI workflow (add manually via GitHub web - requires workflow token scope)
+.github/workflows/
