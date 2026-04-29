@@ -1,0 +1,26 @@
+{
+  "agent": "pulse",
+  "to_agent": "sage",
+  "stage": "impact_assessed",
+  "direction": "bullish",
+  "confidence": 0.78,
+  "horizon": "days",
+  "watch_priority": 4,
+  "asset_scores": {
+    "BTC": {"direction": "bullish", "magnitude": "medium"},
+    "ETH": {"direction": "bullish", "magnitude": "medium"},
+    "COIN": {"direction": "bullish", "magnitude": "high"},
+    "HOOD": {"direction": "bullish", "magnitude": "high"},
+    "SOL": {"direction": "bullish", "magnitude": "medium"},
+    "BNB": {"direction": "bullish", "magnitude": "medium"},
+    "MSTR": {"direction": "bullish", "magnitude": "medium"},
+    "IBIT": {"direction": "bullish", "magnitude": "low"}
+  },
+  "reasoning": "The SEC acknowledging flaws in prior crypto enforcement and adopting softer rhetoric is a clear sentiment positive for the crypto complex because it lowers perceived U.S. headline risk, reduces the probability of aggressive near-term legal escalation, and supports valuation multiple expansion. The strongest transmission channel is into U.S.-listed crypto-linked equities such as COIN and HOOD.",
+  "invalidation_conditions": [
+    "SEC follows the softer statement with new major enforcement actions against exchanges, token issuers, staking, or DeFi participants",
+    "Subsequent reporting shows the remarks were isolated rhetoric rather than a broader policy shift or institutional stance change",
+    "Broader market risk-off conditions or crypto-specific negative catalysts overwhelm the regulatory sentiment boost"
+  ],
+  "next_question": "Determine whether the SEC statement specifically affects exchanges, staking, token issuance, DeFi, or custody, and whether any follow-up actions confirm that the softer tone is becoming actual policy."
+}

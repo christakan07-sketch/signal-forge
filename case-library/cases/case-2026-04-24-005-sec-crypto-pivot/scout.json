@@ -1,0 +1,29 @@
+{
+  "agent": "scout",
+  "to_agent": "atlas",
+  "stage": "news_normalized",
+  "facts": [
+    "The event concerns the U.S. Securities and Exchange Commission, or SEC.",
+    "The reported topic is the SEC stance toward crypto-related enforcement.",
+    "The summary says the SEC acknowledged flaws in its prior crypto enforcement approach.",
+    "The summary says the SEC signaled a softer regulatory tone toward crypto.",
+    "The source is described as a Reuters-grounded summary.",
+    "The event timestamp provided is 2026-04-24.",
+    "The source tier is labeled top-tier-reporting."
+  ],
+  "claims": [
+    "SEC officials or representatives publicly admitted that aspects of earlier crypto enforcement were flawed.",
+    "The SEC is shifting away from a harder-line enforcement posture toward a more accommodating or less aggressive approach.",
+    "This change in tone could imply reduced near-term regulatory hostility toward crypto market participants."
+  ],
+  "uncertainties": [
+    "The specific SEC official, speech, filing, interview, or event where this acknowledgment occurred is not identified.",
+    "The exact flaws in prior crypto enforcement are not specified.",
+    "It is unclear whether the softer tone reflects formal policy change, informal rhetoric, litigation strategy, or staff commentary.",
+    "It is unclear which parts of the crypto sector are affected, such as exchanges, token issuers, stablecoins, DeFi, or custody firms.",
+    "No direct quotes, document references, or enforcement cases are provided.",
+    "It is unknown whether the Reuters-grounded summary characterized the tone accurately or omitted important caveats.",
+    "The market or legal significance of the tone shift cannot be confirmed from the headline alone."
+  ],
+  "next_question": "What exact SEC statement, official, or document on 2026-04-24 supports the claim of acknowledged enforcement flaws and a softer crypto regulatory tone?"
+}

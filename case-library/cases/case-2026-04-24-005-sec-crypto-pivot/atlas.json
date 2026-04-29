@@ -1,0 +1,12 @@
+{
+  "agent": "atlas",
+  "to_agent": "pulse",
+  "stage": "asset_mapping",
+  "primary_assets": ["BTC", "ETH", "COIN", "HOOD"],
+  "secondary_assets": ["SOL", "BNB", "MSTR", "IBIT"],
+  "sectors": ["cryptocurrencies", "crypto exchanges and brokerages", "crypto-linked equities", "digital asset ETFs"],
+  "themes": ["reduced U.S. regulatory overhang", "crypto policy easing", "multiple expansion for crypto-linked equities", "improved sentiment toward trading platforms and token ecosystems"],
+  "relevance_scores": {"BTC": "high", "ETH": "high", "COIN": "high", "HOOD": "high", "SOL": "medium", "BNB": "medium", "MSTR": "medium", "IBIT": "medium"},
+  "reasoning": "A softer SEC enforcement stance most directly benefits major crypto assets and U.S.-exposed trading platforms by lowering perceived legal and policy risk. BTC and ETH are primary because broad regulatory easing typically lifts benchmark crypto sentiment, capital inflows, and ETF/trading demand. Coinbase and Robinhood are primary equities because they have direct exposure to U.S. crypto volumes, listings, and enforcement risk.",
+  "next_question": "Which crypto subsectors are implicated by the underlying SEC statement, specifically exchanges, token issuance, staking, DeFi, or custody, and does the statement signal formal policy change or only softer rhetoric?"
+}

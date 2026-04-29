@@ -1,0 +1,23 @@
+{
+  "case_id": "case-2026-04-24-005-sec-crypto-pivot",
+  "event_date": "2026-04-24",
+  "event_type": "regulatory_action",
+  "event_family": "regulatory_regime",
+  "first_order_impact_path": "regulatory_risk_premium",
+  "second_order_impact_paths": ["multiple_expansion", "sentiment_shift", "sector_rotation"],
+  "persistence_profile": "regime_shift_candidate",
+  "validation_method": ["follow_up_policy_confirmation", "relative_performance"],
+  "failure_mode": ["symbolic_policy_only", "fast_reversal", "already_priced"],
+  "region": ["U.S.", "global"],
+  "source_refs": ["intake-prototype/samples/sample-intake-sec-crypto-pivot.md"],
+  "primary_assets": ["BTC", "ETH", "COIN", "HOOD"],
+  "secondary_assets": ["SOL", "BNB", "MSTR", "IBIT"],
+  "themes": ["reduced U.S. regulatory overhang", "crypto policy easing"],
+  "decision_ladder_result": "paper_trade_candidate",
+  "confidence_band": "medium",
+  "evidence_quality": "medium",
+  "status": "pipeline_complete",
+  "pipeline_run_date": "2026-04-30",
+  "pipeline_duration_seconds": 53,
+  "notes": ["first end-to-end pipeline run", "all 5 agents completed successfully"]
+}

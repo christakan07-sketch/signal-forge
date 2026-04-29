@@ -1,0 +1,44 @@
+{
+  "agent": "sage",
+  "to_agent": "shield",
+  "stage": "hypothesis_ready",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "If the SEC softer rhetoric is followed by clarifying comments or reduced adversarial posture toward centralized exchanges, U.S.-listed crypto brokerages and exchanges, especially COIN and HOOD, should outperform spot crypto over the next several trading days.",
+      "strategy": "Prioritize bullish event-driven exposure in COIN and HOOD over BTC and ETH, looking for confirmation from SEC follow-up statements, market open relative strength, and elevated volume versus crypto benchmarks.",
+      "confidence": 0.82,
+      "invalidation": "SEC officials or staff quickly reaffirm aggressive enforcement toward exchanges, or COIN and HOOD fail to show relative strength versus BTC despite supportive headlines."
+    },
+    {
+      "id": "H2",
+      "statement": "If the rhetoric shift extends to staking and custody rather than only general enforcement tone, ETH and staking-linked narratives should see a secondary catch-up rally after the initial equity move.",
+      "strategy": "Watch for delayed bullish rotation from crypto equities into ETH and ETH-beta exposures if follow-up reporting mentions staking, custody, or ETF-related accommodation.",
+      "confidence": 0.64,
+      "invalidation": "Follow-up details exclude staking/custody, or BTC materially outperforms ETH while regulatory commentary remains vague."
+    },
+    {
+      "id": "H3",
+      "statement": "If the softer SEC stance is merely rhetorical and not backed by concrete policy changes, the first bullish impulse will fade quickly.",
+      "strategy": "Treat the move as short-horizon, favoring quick momentum capture or simulation first.",
+      "confidence": 0.71,
+      "invalidation": "The SEC pauses, narrows, or settles key crypto cases on favorable terms."
+    },
+    {
+      "id": "H4",
+      "statement": "A genuine shift away from hostile enforcement would most strongly benefit U.S. regulated access points, making COIN and HOOD better expressions than offshore-linked assets.",
+      "strategy": "Rank: COIN/HOOD first, MSTR second, BTC/ETH third, IBIT last.",
+      "confidence": 0.77,
+      "invalidation": "Price action shows stronger sustained upside in BTC, ETH, or IBIT than in COIN and HOOD."
+    }
+  ],
+  "research_priorities": [
+    "Identify the exact SEC speaker, wording, and legal or policy context of the statement.",
+    "Determine whether the remarks specifically reference exchanges, staking, custody, token issuance, or DeFi.",
+    "Check for follow-up from SEC commissioners, staff, or official releases.",
+    "Review status of major SEC cases involving COIN, Binance, Ripple, staking programs, ETF/custody.",
+    "Measure relative performance of COIN and HOOD versus BTC, ETH, MSTR, IBIT."
+  ],
+  "recommended_decision": "paper_trade_candidate",
+  "next_question": "Can shield verify whether there is concrete policy follow-through or legal de-escalation from the SEC, and whether live market price/volume confirms that COIN and HOOD are the strongest transmission vehicles?"
+}
