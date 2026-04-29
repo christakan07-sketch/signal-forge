@@ -1,0 +1,17 @@
+{
+  "agent": "shield",
+  "stage": "validated",
+  "decision_ladder_result": "Paper Trade Candidate",
+  "selected_hypothesis": "H1+H3+H4",
+  "reasoning": "The setup is actionable but still headline-fragile. H1 and H4 are the strongest expressions because a real easing in SEC posture should first re-rate U.S.-listed regulated access points like COIN and HOOD. H3 is also important as a control condition because the move can fade quickly if the rhetoric is not matched by concrete policy or enforcement follow-through. Given bullish pipeline context, multi-day horizon, and meaningful but unresolved uncertainty, this clears the bar for paper trading, not live conviction.",
+  "risks": [
+    "The SEC tone shift may be rhetorical only, causing a fast reversal after the initial impulse.",
+    "BTC, ETH, or IBIT could absorb the flow instead, invalidating the thesis that COIN and HOOD are the best relative expressions."
+  ],
+  "action_items": [
+    "Paper trade a relative-strength framework overweighting COIN and HOOD versus BTC and ETH.",
+    "Require confirmation from follow-up SEC commentary, opening session relative strength, and above-normal volume before escalation.",
+    "Track invalidation closely: if COIN and HOOD fail to outperform or enforcement rhetoric hardens again, downgrade immediately to Watch or Simulate-only."
+  ],
+  "confidence_in_decision": 0.81
+}
