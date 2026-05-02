@@ -1,0 +1,22 @@
+{
+  "case_id": "case-YYYY-MM-DD-XXX-slug",
+  "decision_date": "YYYY-MM-DD",
+  "decision_ladder_result": "Research",
+  "selected_hypothesis": "H1",
+  "tracked_assets": ["asset-1"],
+  "expected_direction": "bullish",
+  "expected_horizon": "days",
+  "invalidation_conditions": ["condition-1"],
+  "outcome_window": {
+    "t_plus_1d": "pending",
+    "t_plus_3d": "pending",
+    "t_plus_1w": "pending"
+  },
+  "actual_outcome": {
+    "direction": "pending",
+    "strength": "pending",
+    "did_invalidate": null
+  },
+  "verdict": "unresolved",
+  "notes": ["created from template"]
+}

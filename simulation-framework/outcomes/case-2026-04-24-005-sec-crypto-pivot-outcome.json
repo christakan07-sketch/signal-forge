@@ -1,0 +1,30 @@
+{
+  "case_id": "case-2026-04-24-005-sec-crypto-pivot",
+  "decision_date": "2026-04-30",
+  "decision_ladder_result": "Research",
+  "selected_hypothesis": "H3",
+  "tracked_assets": ["COIN", "BTC", "ETH", "spot BTC/ETH ETFs"],
+  "expected_direction": "bullish",
+  "expected_horizon": "days",
+  "invalidation_conditions": [
+    "SEC action turns out vague or non-binding",
+    "exchange-linked equities fail to outperform BTC and ETH",
+    "secondary confirmation does not appear"
+  ],
+  "outcome_window": {
+    "t_plus_1d": "pending",
+    "t_plus_3d": "pending",
+    "t_plus_1w": "pending"
+  },
+  "actual_outcome": {
+    "direction": "pending",
+    "strength": "pending",
+    "did_invalidate": null
+  },
+  "verdict": "unresolved",
+  "notes": [
+    "governed rerun selected H3 staged confirmation process",
+    "sentinel downgraded to paper_trade_only",
+    "awaiting post-decision observation windows"
+  ]
+}

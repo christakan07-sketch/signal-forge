@@ -1,0 +1,31 @@
+{
+  "case_id": "case-2026-04-24-009-oil-hormuz-live",
+  "decision_date": "2026-05-01",
+  "decision_ladder_result": "Research",
+  "selected_hypothesis": "H1 Brent-led seaborne crude risk premium",
+  "tracked_assets": ["Brent", "WTI", "tanker equities"],
+  "expected_direction": "bullish",
+  "expected_horizon": "days",
+  "invalidation_conditions": [
+    "Brent prompt structure fails to strengthen versus WTI",
+    "tanker spot rates or war-risk pricing do not confirm stress",
+    "move is only headline fear without physical disruption",
+    "de-escalation headlines reverse the premium"
+  ],
+  "outcome_window": {
+    "t_plus_1d": "captured separately in evidence",
+    "t_plus_3d": "pending",
+    "t_plus_1w": "pending"
+  },
+  "actual_outcome": {
+    "direction": "pending",
+    "strength": "pending",
+    "did_invalidate": null
+  },
+  "verdict": "unresolved",
+  "notes": [
+    "governed pipeline held at Research",
+    "sentinel rated risk high and capped at paper_trade_only",
+    "awaiting cross-market confirmation"
+  ]
+}
